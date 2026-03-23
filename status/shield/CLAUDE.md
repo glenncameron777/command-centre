@@ -93,11 +93,10 @@ docs/            Design documents and implementation plans
 - Pro $9.99/mo: unlimited, deep, paranoia, simulation, monitoring
 - Institutional $49.99/mo: API access, multi-wallet
 
-## Session protocol
-At the end of every session, print a status update block for Glenn's Command Centre dashboard:
-```json
-{"updates":[{"id":"shield-engine","status":"active","nextAction":"What to do next","blockers":"Any blockers or empty string","notes":"What was accomplished this session"}]}
-```
+## Status tracking
+- Update STATUS.md in this directory at the end of every session where meaningful progress was made.
+- Keep it current: last updated date, current focus, what was accomplished, next action, blockers (and who owns them), this week's targets.
+- The Command Centre reads this file to track cross-project status.
 
 
 ## Skills

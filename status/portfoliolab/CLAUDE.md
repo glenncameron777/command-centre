@@ -47,10 +47,10 @@ Free Bitcoin portfolio analysis platform at portfoliolab.app. Targeting serious 
 ## DIY Financial Planner (separate app)
 Lives in the `web/` directory on branch `feature/per-person-tax-breakdown`. UK-focused financial planning app with retirement modelling, cashflow, estate planning, tax calculations. Uses localStorage only. Not related to the Bitcoin content strategy.
 
-## Session protocol
-```json
-{"updates":[{"id":"portfoliolab","status":"active","nextAction":"...","notes":"..."}]}
-```
+## Status tracking
+- Update STATUS.md in this directory at the end of every session where meaningful progress was made.
+- Keep it current: last updated date, current focus, what was accomplished, next action, blockers (and who owns them), this week's targets.
+- The Command Centre reads this file to track cross-project status.
 
 
 ## Skills

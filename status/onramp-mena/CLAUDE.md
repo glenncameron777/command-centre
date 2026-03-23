@@ -71,16 +71,10 @@ All version-controlled on GitHub. Cross-document consistency check found 5 issue
 After ANY agreement edit, run this check:
 "Read all nine legal agreements. Check for: inconsistent entity names, conflicting liability caps, mismatched fee references, wrong cross-references, terminology differences. Report as numbered list with severity (critical/warning/info)."
 
-## Session start protocol
-At the start of every session, briefly state:
-1. What's overdue or needs immediate attention
-2. What's blocked and on whom
-3. What was last worked on
-
-## Session end protocol
-```json
-{"updates":[{"id":"mena-cbb","status":"active","nextAction":"...","blockers":"...","notes":"..."}]}
-```
+## Status tracking
+- Update STATUS.md in this directory at the end of every session where meaningful progress was made.
+- Keep it current: last updated date, current focus, what was accomplished, next action, blockers (and who owns them), this week's targets.
+- The Command Centre reads this file to track cross-project status.
 
 
 ## Skills

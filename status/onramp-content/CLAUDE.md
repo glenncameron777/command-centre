@@ -55,14 +55,10 @@ Institutional infrastructure map: 9 layers of TradFi functions mapped to digital
 ## Data accuracy rule
 ALWAYS web-search to verify any figure before including it in a brief or chart. Prices, AUM, debt figures, returns — never trust training data. This goes out under the company brand.
 
-## Session protocol
-```json
-{"updates":[{"id":"market-brief","status":"active","nextAction":"...","notes":"..."}]}
-```
-Or for the flagship:
-```json
-{"updates":[{"id":"new-money-stack","status":"active","nextAction":"...","notes":"..."}]}
-```
+## Status tracking
+- Update STATUS.md in this directory at the end of every session where meaningful progress was made.
+- Keep it current: last updated date, current focus, what was accomplished, next action, blockers (and who owns them), this week's targets.
+- The Command Centre reads this file to track cross-project status.
 
 
 ## Skills

@@ -53,10 +53,10 @@ fade_in → title → split_appear → consumer → institutional → same_probl
 ## Onramp logo
 Use `<img src="https://onrampbitcoin.com/logo-white.svg">` — NOT inline SVG paths (the inline version clips the golden tree icon because the viewBox is too narrow).
 
-## Session protocol
-```json
-{"updates":[{"id":"mic-explained-s1","status":"active","nextAction":"...","notes":"..."}]}
-```
+## Status tracking
+- Update STATUS.md in this directory at the end of every session where meaningful progress was made.
+- Keep it current: last updated date, current focus, what was accomplished, next action, blockers (and who owns them), this week's targets.
+- The Command Centre reads this file to track cross-project status.
 
 
 ## Skills

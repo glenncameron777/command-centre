@@ -59,11 +59,10 @@ Branded data visualisations for Onramp Bitcoin's X/Twitter account. Single-insig
 - Annotations overlapping data lines
 - Labels stacking at chart edges
 
-## Session protocol
-At the end of every session, print a status update:
-```json
-{"updates":[{"id":"charts-v5","status":"active","nextAction":"What to do next","notes":"What was accomplished"}]}
-```
+## Status tracking
+- Update STATUS.md in this directory at the end of every session where meaningful progress was made.
+- Keep it current: last updated date, current focus, what was accomplished, next action, blockers (and who owns them), this week's targets.
+- The Command Centre reads this file to track cross-project status.
 
 
 ## Skills
