@@ -54,6 +54,7 @@ Lives in the `web/` directory on branch `feature/per-person-tax-breakdown`. UK-f
 
 
 ## Skills
+- Before starting any task, check .claude/skills/ for relevant skill files and follow them. Skills override general knowledge — they contain hard-won corrections specific to this project.
 - After completing any multi-step process that required 3+ back-and-forth corrections, automatically create a skill file in .claude/skills/ capturing the final working process.
 - After using an existing skill, if I corrected you or the output needed changes, update the skill file with what you learned BEFORE ending the session.
 - NEVER close a session where a correction was made without updating the relevant skill file. This is non-negotiable.
