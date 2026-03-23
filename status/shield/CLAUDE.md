@@ -98,3 +98,9 @@ At the end of every session, print a status update block for Glenn's Command Cen
 ```json
 {"updates":[{"id":"shield-engine","status":"active","nextAction":"What to do next","blockers":"Any blockers or empty string","notes":"What was accomplished this session"}]}
 ```
+
+
+## Skills
+- After completing any multi-step process that required 3+ back-and-forth corrections, automatically create a skill file in .claude/skills/ capturing the final working process.
+- After using an existing skill, if I corrected you or the output needed changes, update the skill file with what you learned before closing the session.
+- Name skills descriptively: weekly-brief-build.md, chart-generation.md, mena-consistency-check.md

@@ -75,3 +75,9 @@ Here's your status update to paste into the Command Centre:
 - Clear `blockers` (set to empty string) if you resolved them
 - `notes` should describe what was accomplished, not the full project history
 - If Glenn asks you to check the project board, ask him to paste the briefing from the dashboard's Copy Briefing button
+
+
+## Skills
+- After completing any multi-step process that required 3+ back-and-forth corrections, automatically create a skill file in .claude/skills/ capturing the final working process.
+- After using an existing skill, if I corrected you or the output needed changes, update the skill file with what you learned before closing the session.
+- Name skills descriptively: weekly-brief-build.md, chart-generation.md, mena-consistency-check.md

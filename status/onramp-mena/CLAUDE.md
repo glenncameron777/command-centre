@@ -81,3 +81,9 @@ At the start of every session, briefly state:
 ```json
 {"updates":[{"id":"mena-cbb","status":"active","nextAction":"...","blockers":"...","notes":"..."}]}
 ```
+
+
+## Skills
+- After completing any multi-step process that required 3+ back-and-forth corrections, automatically create a skill file in .claude/skills/ capturing the final working process.
+- After using an existing skill, if I corrected you or the output needed changes, update the skill file with what you learned before closing the session.
+- Name skills descriptively: weekly-brief-build.md, chart-generation.md, mena-consistency-check.md
