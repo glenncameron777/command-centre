@@ -67,5 +67,6 @@ Or for the flagship:
 
 ## Skills
 - After completing any multi-step process that required 3+ back-and-forth corrections, automatically create a skill file in .claude/skills/ capturing the final working process.
-- After using an existing skill, if I corrected you or the output needed changes, update the skill file with what you learned before closing the session.
-- Name skills descriptively: weekly-brief-build.md, chart-generation.md, mena-consistency-check.md
+- After using an existing skill, if I corrected you or the output needed changes, update the skill file with what you learned BEFORE ending the session.
+- NEVER close a session where a correction was made without updating the relevant skill file. This is non-negotiable.
+- Name skills descriptively: weekly-brief-build.md, chart-generation.md, etc.
