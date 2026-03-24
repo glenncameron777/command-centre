@@ -14,6 +14,8 @@
 - Composite indices (AC World, EAFE) excluded from "Select All" to avoid double-counting
 - Reddit account: Key_Bee_682 (r/Bitcoin banned permanently — assume dead. Appealed March 6, no response.)
 - r/CryptoCurrency needs 50 karma + 30 days account age
+- Twitter/X: @PortfolioLabApp (created March 24, 2026)
+- Telegram bot: @portfoliolab_drafts_bot — credentials in .env.local (TELEGRAM_BOT_TOKEN, TELEGRAM_CHAT_ID)
 - Bogleheads forum is #1 priority referral channel (PortfolioCharts gets 38% traffic from there)
 - Portfolio Visualizer paywall migration = competitive opportunity for free positioning
 
