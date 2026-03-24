@@ -19,7 +19,7 @@
 - r/CryptoCurrency needs 50 karma + 30 days account age
 - Twitter/X: @PortfolioLabApp (created March 24, 2026)
 - Telegram bot: @portfoliolab_drafts_bot. Credentials in .env.local (TELEGRAM_BOT_TOKEN, TELEGRAM_CHAT_ID)
-- Bogleheads forum is #1 priority referral channel (PortfolioCharts gets 38% traffic from there)
+- Bogleheads forum: account is glenncameron777 (last login March 1, 2026). #1 priority referral channel (PortfolioCharts gets 38% traffic from there)
 - Portfolio Visualizer paywall migration = competitive opportunity for free positioning
 - Social hub at /social-hub?key=a3c8380b5ef72ff8974e4a691e046e1f057c12adac15db04
 - Daily scheduled agent runs at 9am London (8am UTC). Trigger ID: trig_01CckPM2bbSEVCvQoTomUPSk. Managed at claude.ai/code/scheduled/
