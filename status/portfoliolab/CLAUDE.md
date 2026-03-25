@@ -28,16 +28,19 @@ Free Bitcoin portfolio analysis platform at portfoliolab.app. Targeting serious 
 **Blog posts (7 Bitcoin + 6 general):** All TSX, all have FAQ schema and ArticleSchema
 
 ## SEO status
-- Domain is ~2 weeks old, in Google sandbox
-- Best ranking: "bitcoin historical drawdowns" avg position 8.6 (bottom of page 1)
-- 8.45K impressions, 449 queries in first indexing period
-- The blog post /blog/every-bitcoin-drawdown drives 99% of drawdown impressions
+- Domain ~1 month old, exiting Google sandbox
+- 22.4K impressions, 9 clicks, 100% non-branded (as of March 24)
+- Top query: "btc dca calculator"
+- Top pages: /blog/cheapest-expensive-stock-markets-2026, /tools/bitcoin-dca-calculator
 
 ## Social / promotion
-- Reddit: Key_Bee_682. r/Bitcoin BANNED (appealed March 6, no response). r/CryptoCurrency needs 50 karma + 30d age. Building karma on r/investing, r/BitcoinMarkets, r/financialindependence
-- LinkedIn: posting ~1/day, retirement calculator and correlation dashboard posts done
-- Twitter/X: @PortfolioLab not yet created
-- Tone: conversational, natural imperfections. People flag AI content on Reddit.
+- Reddit: Key_Bee_682. r/Bitcoin BANNED permanently (appealed March 6, no response). r/CryptoCurrency needs 50 karma + 30d age
+- LinkedIn: posting ~1/day
+- Twitter/X: @PortfolioLabApp (created March 24, 2026)
+- Telegram bot: @portfoliolab_drafts_bot for draft notifications
+- Social hub: /social-hub?key=a3c8380b5ef72ff8974e4a691e046e1f057c12adac15db04
+- Daily scheduled agent: 9am London, drafts Reddit/Twitter/LinkedIn content to social hub
+- Tone: conversational, natural imperfections. People flag AI content on Reddit. NEVER use em dashes.
 
 ## 90-day content strategy
 - Month 1: 4 free tools + 4 blog posts + Reddit + LinkedIn (mostly done)
