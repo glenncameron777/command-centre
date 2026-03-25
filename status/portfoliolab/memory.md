@@ -29,5 +29,8 @@
 - Email capture: /api/email-capture -> ConvertKit. Tags: "portfolio-optimizer" (unlock gate), "portfolio-save" (newsletter banner)
 - Portfolio Visualizer paywall migration = competitive opportunity for free positioning
 
+## Pitfalls discovered
+- HARO emails must NOT be fetched via Gmail MCP. Content (journalist queries on sensitive topics) triggers Anthropic usage policy violations that poison the entire session. Glenn checks HARO manually and pastes relevant queries into the session.
+
 ## SEO learnings
 - After publishing: add to sitemap, add to blog index POSTS array, request indexing in Search Console
