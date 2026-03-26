@@ -22,12 +22,15 @@ Onramp MENA is applying for a Category 2 Crypto-Asset Service Provider licence f
 
 ## The MIC architecture
 Multi-Institution Custody: 2-of-3 native Bitcoin multisig across independent institutions.
-- **Key 1 (Onramp MENA):** Primary custodian. Must hold at least one active signing key per CBB requirement.
-- **Key 2 (SEARCH ACTIVE):** Evaluating Kingdom Trust and NYDIG. Anchorage rejected — structural mismatch (they require holding ALL keys, conflicts with CBB primary custodian requirement).
-- **Key 3 (CoinCover):** Recovery key agent. In quorum. LOI drafted.
-- **Signing key agent (Tetra Trust):** Service agreement drafted.
+- **Key 1 (Onramp MENA):** Primary custodian. Signs first. Must hold at least one active signing key per CBB requirement.
+- **Key 2 (Tetra Trust, Canada):** Active co-signing key partner. Signs second, verifies user via video, broadcasts transaction. Service agreement drafted.
+- **Key 3 (CoinCover, UK):** Passive/recovery-only key holder. Contractually restricted — cannot exercise key while Onramp MENA is operational. Dual 72-hour gating mechanism before any recovery signing. Functions as embedded business continuity plan (aligned with CRA BCP requirements). £50B+ AUM business. LOI drafted.
+
+**Signing flow:** Onramp MENA signs → Tetra co-signs and broadcasts. CoinCover only activates if Onramp MENA becomes unreachable (after dual 72-hour waiting periods + independent client KYC/KYB/AML with CoinCover).
 
 **Critical constraint:** xpub-based algorithmic key generation is required. This eliminates most MPC-based custodians.
+
+**Previous Key 2 candidates eliminated:** Anchorage (requires holding ALL keys), Tetra was initially flagged for xpub limitations but is now confirmed as Key Partner 1 in the tech stack. Kingdom Trust and NYDIG were also evaluated.
 
 ## CBB regulatory framework
 - Rulebook: Volume 6, Crypto-Asset Module (CRA)
@@ -60,12 +63,17 @@ All version-controlled on GitHub. Cross-document consistency check found 5 issue
 - Key distribution: CBB exception approved for cross-jurisdiction key storage
 - Config default: public_ssl (not Tor)
 
+## Key documents
+- **CBB Tech Alignment Checklist** — regulator-ready document mapping tech stack to CRA rules. Saved at `context/cbb-tech-alignment-checklist.md`. Word version on Glenn's desktop. This is for the preliminary CBB meeting.
+- **Build spec** — detailed technical spec (Jake's Word doc). Completed after ~6 weeks of back-and-forth.
+
 ## Documents still needed for CBB submission
 - AML/CFT policy
-- Business continuity plan
+- Business continuity plan (note: CoinCover recovery mechanism functions as embedded BCP)
 - Fit-and-proper declarations
 - Outsourcing risk assessment
 - Complete submission package with cover letter
+- Policy documents drafted in ClickUp — need updating once build is finalized and CBB gives preliminary OK
 
 ## Cross-document consistency check
 After ANY agreement edit, run this check:

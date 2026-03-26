@@ -2,26 +2,35 @@
 > This file is updated automatically by Claude Code. Do not edit manually unless cleaning up.
 
 ## Preferences
-- Jake gets space — don't over-chase. Next meeting Monday.
+- Jake gets space — don't over-chase
 - Encouraging tone on comments to Jake's documents
 - Ralph handles Michael communications on fee negotiations and entity type
+- Stephen's review style: comments in bubbles for feedback, track changes only for specific language/word choice, brackets = concept not exact wording
 
 ## Decisions made
 - Entity: Onramp MENA Inc., RAK DAO, UAE
-- CoinCover already in quorum as key holder
+- Key 2 confirmed: Tetra Trust (Canada) — active co-signing key partner
+- Key 3 confirmed: CoinCover (UK) — passive/recovery-only key holder with 72-hour dual-gating mechanism
+- CoinCover framed as embedded business continuity plan under CRA BCP requirements (Stephen's recommendation)
 - xpub algorithmic generation is a critical filter — eliminates most MPC custodians
 - Anchorage eliminated (requires all keys, incompatible with CBB)
-- Strongest remaining key holder candidates: Kingdom Trust and NYDIG
 - Fee counter-proposal: $0 ramp (1-15 vaults), $30K T1, $72K T2, $120K T3, $150K cap
+- Fee structure: flat fee (not basis points) — rationale: simplicity for initial clients
 - Gap responsibility split: Jake owns tech spec items, Glenn & Ralph own regulatory docs
+- CBB strategy: MIC-first mindset (sell concept), then show tech stack facilitates it best
+- Conservative approach throughout — don't take shortcuts on a new model
 
 ## Pitfalls discovered
-- Tetra Trust can't produce xpubs algorithmically — eliminated
 - Zodia unresponsive — eliminated
 - Unchained — bad relationship — eliminated
+- Onramp US didn't have their own tech stack — was entirely BitGo via API. Discovered during process. Jake now building from scratch.
+- Don't say "nothing happens without our signature" to CBB — technically the two external key holders could sign without Onramp MENA. Correct framing: contractual controls + 72-hour dual waiting period prevent this.
+- CBB "too long didn't read" — don't overwhelm with documents. Simplified version for presentation, detailed answers held in reserve.
 
 ## Conventions established
 - Workflows directory contains reusable process definitions (skills)
 - CBB Rulebook Vol 6 downloaded to ~/onramp-mena/regulations/
 - CRA-8 extracted text at ~/onramp-mena/regulations/cra8-extracted.txt
 - Gap closures document at ~/onramp-mena/regulations/CRA-8-gap-closures.md
+- CBB Tech Alignment Checklist: Word doc on desktop, markdown copy at ~/onramp-mena/context/cbb-tech-alignment-checklist.md
+- Policy documents drafted in ClickUp — need updating once build is finalized
