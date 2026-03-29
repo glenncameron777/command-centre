@@ -1,8 +1,11 @@
-## Memory
-- Read `memory.md` in this directory at the start of every session.
+## Memory & context files
+- Read `memory.md` in this directory at the start of every session. It has content preferences, platform credentials, architecture decisions, and pitfalls.
+- Also check auto-memory at `~/.claude/projects/.../memory/MEMORY.md` for SEO checklists, feedback rules, and user context.
 - When I correct you, establish a preference, or we discover a pitfall, update the relevant section in memory.md.
 - Keep memory.md current. Replace outdated info, do not duplicate.
 - Only save substantial corrections and decisions, not trivial details.
+- Check `STATUS.md` for current focus, recent progress, and next priorities.
+- Check `DATA-SOURCES.md` when working with APIs or data fetching.
 
 # PortfolioLab
 
@@ -56,8 +59,20 @@ Lives in the `web/` directory on branch `feature/per-person-tax-breakdown`. UK-f
 - The Command Centre reads this file to track cross-project status.
 
 
+## SEO
+- Before creating any new blog post, tool page, or content page, check memory for the SEO checklist (`feedback_seo_checklist_new_content.md`) and follow it completely.
+- Before refreshing/updating existing blog content, check memory for the date update process (`feedback_update_dates_on_refresh.md`).
+- Every new page MUST have: appropriate schema (ArticleSchema/FAQSchema), BreadcrumbSchema, OpenGraph metadata, internal links to/from related pages.
+- Never ship a new content page without hitting every item on the SEO checklist.
+
 ## Skills
 - Before starting any task, check .claude/skills/ for relevant skill files and follow them. Skills override general knowledge — they contain hard-won corrections specific to this project.
+- Key skills to check by task type:
+  - **Writing blog posts**: `blog-post-build.md` (full process), `seo-strategy.md`, `data-conventions.md`
+  - **Social media content**: `social-posting-workflow.md`, `social-distribution.md`
+  - **Marketing/growth**: `marketing-plan.md`
+  - **Auth/gating work**: `auth-gating-setup.md`
+  - **Any dev work**: `dev-conventions.md`, `data-conventions.md`
 - After completing any multi-step process that required 3+ back-and-forth corrections, automatically create a skill file in .claude/skills/ capturing the final working process.
 - After using an existing skill, if I corrected you or the output needed changes, update the skill file with what you learned BEFORE ending the session.
 - NEVER close a session where a correction was made without updating the relevant skill file. This is non-negotiable.
