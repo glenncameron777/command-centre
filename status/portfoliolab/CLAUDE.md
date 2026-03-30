@@ -64,6 +64,8 @@ Lives in the `web/` directory on branch `feature/per-person-tax-breakdown`. UK-f
 - Before refreshing/updating existing blog content, check memory for the date update process (`feedback_update_dates_on_refresh.md`).
 - Every new page MUST have: appropriate schema (ArticleSchema/FAQSchema), BreadcrumbSchema, OpenGraph metadata, internal links to/from related pages.
 - Never ship a new content page without hitting every item on the SEO checklist.
+- At the start of every session, check `src/app/social-hub/seo-brief.md` for the latest weekly SEO brief. If it has action items marked [CRITICAL] or [HIGH], fix them immediately before doing anything else. Add any new pages to sitemap.ts.
+- Check `/mnt/c/Users/glenn/Downloads/` for recent GSC export files (Performance xlsx, Coverage xlsx). If fresh files exist (less than 7 days old), analyze them: identify pages with high impressions but low CTR (rewrite titles), pages at position 8-15 (double down), pages with zero impressions after 60 days (investigate). Report findings to Glenn with recommended actions.
 
 ## Skills
 - Before starting any task, check .claude/skills/ for relevant skill files and follow them. Skills override general knowledge — they contain hard-won corrections specific to this project.
