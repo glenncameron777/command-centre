@@ -71,7 +71,7 @@ Lives in the `web/` directory on branch `feature/per-person-tax-breakdown`. UK-f
 - Before starting any task, check .claude/skills/ for relevant skill files and follow them. Skills override general knowledge — they contain hard-won corrections specific to this project.
 - Key skills to check by task type:
   - **Writing blog posts**: `blog-post-build.md` (full process), `seo-strategy.md`, `data-conventions.md`
-  - **Social media content**: `social-posting-workflow.md`, `social-distribution.md`
+  - **Social media content**: `social-posting-workflow.md`, `social-distribution.md` + check memory `feedback_social_content_quality.md` (app screenshots, logo, no duplicates)
   - **Marketing/growth**: `marketing-plan.md`
   - **Auth/gating work**: `auth-gating-setup.md`
   - **Any dev work**: `dev-conventions.md`, `data-conventions.md`
