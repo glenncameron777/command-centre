@@ -20,6 +20,10 @@
 - CBB strategy: MIC-first mindset (sell concept), then show tech stack facilitates it best
 - Conservative approach throughout — don't take shortcuts on a new model
 
+## Open critical items
+- OFAC/sanctions screening: recognized gap, potential CBB deal-breaker. Chain Analysis preferred vendor. Needs configurable API integration in the software (bidirectional: incoming + outgoing). Action: Glenn/Ralph investigate Tetra & CoinCover screening practices; Jake to design implementation.
+- Tetra operational reliability: still sending xpubs via Google Sheets (not API), ran out of keys causing ~200 onboarding errors (2026-03-31). Michael pressuring. Must be resolved before CBB presentation.
+
 ## Pitfalls discovered
 - Zodia unresponsive — eliminated
 - Unchained — bad relationship — eliminated
