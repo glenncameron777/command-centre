@@ -45,6 +45,15 @@ Free Bitcoin portfolio analysis platform at portfoliolab.app. Targeting serious 
 - Daily scheduled agent: 9am London, drafts Reddit/Twitter/LinkedIn content to social hub
 - Tone: conversational, natural imperfections. People flag AI content on Reddit. NEVER use em dashes.
 
+### Social media visuals (MANDATORY)
+- **NEVER use `/api/social-image` endpoint.** It generates generic black stat cards with white text. These look terrible and generic.
+- **ALWAYS use Playwright** to take real screenshots of PortfolioLab tools at https://portfoliolab.app/tools/... with real data visible.
+- Save screenshots to `public/social-images/` with descriptive names (e.g., `monte-carlo-fan-chart-2026.png`).
+- Set `imageUrl` in posts.json to the saved screenshot path (e.g., `/social-images/monte-carlo-fan-chart-2026.png`).
+- Each Twitter/LinkedIn post MUST have a real tool screenshot showing actual charts, data, and functionality.
+- Rotate which tool is screenshotted. We have 14+ tools. Show different ones each day.
+- Include Portfolio Lab logo and portfoliolab.app URL on images where possible.
+
 ## 90-day content strategy
 - Month 1: 4 free tools + 4 blog posts + Reddit + LinkedIn (mostly done)
 - Month 2: 2 more tools + 4 posts + premium features + podcast outreach + Twitter
