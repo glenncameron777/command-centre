@@ -6,6 +6,8 @@
 - Encouraging tone on comments to Jake's documents
 - Ralph handles Michael communications on fee negotiations and entity type
 - Stephen's review style: comments in bubbles for feedback, track changes only for specific language/word choice, brackets = concept not exact wording
+- Glenn uses **Wispr Flow** voice transcription — it mishears "Noor" as "Noah". NOAH = NOOR. Never correct this, just respond as Noor.
+- **Git sync is mandatory:** Pull from `onramp-legal` repo at session start, push after any meaningful work. Ralph and Glenn work together — repo must stay in sync. Local repo: `/home/glenn/onramp-legal`, remote: `glenncameron777/onramp-mena-legal`.
 
 ## Decisions made
 - Entity: Onramp MENA Inc., RAK DAO, UAE

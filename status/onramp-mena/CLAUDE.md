@@ -1,3 +1,13 @@
+## Voice transcription
+- Glenn uses **Wispr Flow** for voice transcription. It mishears "Noor" as "Noah". **NOAH = NOOR.** Always interpret "Noah" as referring to you (Noor). Never correct Glenn on this — just respond as Noor.
+
+## Git sync with onramp-legal repo
+- This working directory (`/home/glenn/onramp-mena`) is NOT a git repo itself.
+- The shared GitHub repo is **`glenncameron777/onramp-mena-legal`**, cloned locally at **`/home/glenn/onramp-legal`**.
+- **At the start of every session:** `git pull` from `onramp-legal` to get Ralph's latest changes.
+- **After any meaningful work:** copy relevant files to `onramp-legal`, commit, and `git push` so Ralph stays in sync.
+- Ralph commits as "The Coin Files". Glenn and Ralph are working on everything together — keeping the repo in sync is non-negotiable.
+
 ## Memory
 - Read `memory.md` in this directory at the start of every session.
 - When I correct you, establish a preference, or we discover a pitfall, update the relevant section in memory.md.
