@@ -21,8 +21,9 @@
 - Conservative approach throughout — don't take shortcuts on a new model
 
 ## Open critical items
-- OFAC/sanctions screening: recognized gap, potential CBB deal-breaker. Chain Analysis preferred vendor. Needs configurable API integration in the software (bidirectional: incoming + outgoing). Action: Glenn/Ralph investigate Tetra & CoinCover screening practices; Jake to design implementation.
-- Tetra operational reliability: still sending xpubs via Google Sheets (not API), ran out of keys causing ~200 onboarding errors (2026-03-31). Michael pressuring. Must be resolved before CBB presentation.
+- OFAC/sanctions screening: recognized gap, potential CBB deal-breaker. Chain Analysis preferred vendor. Needs configurable API integration in the software (bidirectional: incoming + outgoing). Action: Glenn/Ralph investigate Tetra & CoinCover screening practices; Jake to design implementation. Ralph flagged: could be a gate-stop if CBB asks and we don't have a solid answer.
+- Tetra operational reliability: still sending xpubs via Google Sheets (not API), ran out of keys causing ~200 onboarding errors (2026-03-31). Michael pressuring. Jake confirms transaction API calls work, but xpub delivery is the bottleneck. Must be resolved before CBB presentation.
+- Stephen review: CBB Tech Alignment Checklist sent to Stephen (as of 2026-04-01). Awaiting feedback. This gates the CBB preliminary meeting.
 
 ## Pitfalls discovered
 - Zodia unresponsive — eliminated
