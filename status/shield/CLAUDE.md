@@ -106,9 +106,8 @@ docs/            Design documents and implementation plans
 - Phase 7: Lightning analysis
 
 ## Revenue model
-- Free: 3 scans/day, standard depth
-- Pro $9.99/mo: unlimited, deep, paranoia, simulation, monitoring
-- Institutional $49.99/mo: API access, multi-wallet
+- Free: 3 scans/day, standard depth, privacy scoring, address clustering, dust detection
+- Pro $99 one-time: unlimited, deep/paranoia tracing, simulation, adversary report, monitoring, priority updates
 
 ## Status tracking
 - Update STATUS.md in this directory at the end of every session where meaningful progress was made.
