@@ -12,6 +12,7 @@ At the start of every session, read the STATUS.md and memory.md from every proje
 - ~/projects/diy_financial_advisor/portfolio-lab/STATUS.md and memory.md
 - ~/onramp-mena/STATUS.md and memory.md
 - ~/mic-explained-viewer/STATUS.md and memory.md
+- ~/onramp-terminal-api/STATUS.md and memory.md
 
 Then give Glenn a brief status overview: what's due this week, what's blocked and on whom, what needs his attention, and what was last worked on in each project.
 
@@ -25,6 +26,7 @@ Then give Glenn a brief status overview: what's due this week, what's blocked an
 | PortfolioLab | ~/projects/diy_financial_advisor/portfolio-lab |
 | Onramp MENA | ~/onramp-mena |
 | MIC Explained | ~/mic-explained-viewer |
+| Onramp Terminal API | ~/onramp-terminal-api |
 
 ## What you can do
 
