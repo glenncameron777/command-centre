@@ -46,6 +46,7 @@
 - Skills files in .claude/skills/ — chart-generation.md, logo-pipeline.md, chart-qa-checklist.md
 - LinkedIn carousel format: PPTX at standard 16:9, dark emerald green (#0d3328) cover, green accent bar at top of each slide, slide numbers, Onramp logo on every slide
 - Document deliverables: Word doc for Canva paste (charts as images + selectable text), PPTX for LinkedIn (export to PDF)
+- **Inflation charts: reframe y-axis as purchasing power, not CPI multiple.** Plot CPI as data (line still rises) but tick labels show what $1 buys at each level (1/CPI). Going up the page = $1 buys less. Use FixedLocator with geometric tick spacing (e.g. CPI [1, 5, 10, 20, 50] → labels [$1, 20¢, 10¢, 5¢, 2¢]). Avoid tightly-spaced ticks at the bottom — drop intermediate values like 50¢ if they crowd $1. The story narrates itself: dollar held value 140 years, then erodes through each tick. Used in hp_29_cpi_since_1775.py.
 
 ## Active projects
 - **New Money Stack** — institutional landscape map (render_stack.py). Bloomberg-terminal style: two white column panels on black bg, fieldset/legend borders, large logos. All content/data finalized.
