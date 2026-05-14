@@ -36,6 +36,7 @@
 - **Mises/editorial quotes need clear white space** — never place over data lines. Use top-left or mid-chart white space with white bbox background
 - **bbox_inches='tight' breaks logo positioning** — figimage uses pixel coords that assume the full figure size. If using tight cropping (e.g. for document embedding), the logo pipeline won't work. Use bbox_inches=None for v5 charts
 - **PPTX files can't be overwritten while open** — save with a new filename if PowerPoint has the file locked
+- **Endpoint markers at line end get clipped by the axis** when the last data point is near `xlim`. The visible artefact looks like a "C"-shaped bite out of the dot. Fix: pass `clip_on=False` to `ax.plot(...)` for endpoint markers. This is NOT a label-bbox issue even though it looks like one.
 
 ## Conventions established
 - Logo pipeline: cairosvg.svg2png(scale=30) → PIL auto-crop → LANCZOS resize to 140px → figimage (48px from right edge, 24px from bottom)
