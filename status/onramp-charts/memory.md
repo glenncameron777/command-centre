@@ -8,6 +8,7 @@
 - Monochromatic editorial restraint — no traffic-light palettes
 - Glenn's other Claude sessions may flag data issues — take them seriously, triple-check
 - Glenn works across Canva, PowerPoint, and LinkedIn — provide assets in formats he can paste from (PPTX, individual PNGs, Word docs)
+- Don't credit common/conceptual framings to a source ("adapted from X / framework from X") — nobody owns a general concept, and it reads as deferring to a competitor. Still cite hard DATA sources. Pure conceptual/explainer graphics need no source line at all. (Glenn pulled the "adapted from Unchained" line off the "Bitcoin is not crypto" chart — "Unchained doesn't own the concept.")
 
 ## Decisions made
 - v5 system is current: 1200x675px @150DPI, white bg, Inter font
