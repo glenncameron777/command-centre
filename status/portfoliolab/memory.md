@@ -16,6 +16,12 @@
 - Daily agent trigger: trig_01CckPM2bbSEVCvQoTomUPSk. Managed at claude.ai/code/scheduled/
 - Social hub posts stored in src/app/social-hub/posts.json
 
+## Product positioning & design (Glenn, 4 Jul 2026)
+- PortfolioLab is a portfolio construction tool that takes Bitcoin seriously, NOT a Bitcoin-only tool. Bitcoin = first-class asset among 27, never the sole hook. Show 100%-BTC holders why diversification wins, respectfully.
+- First-run = newcomer journey: land on a finished exemplar analysis (60/40 + 10% BTC), then "Make it yours", stages 1->4 in order.
+- Design bar: "most beautiful piece of financial software, Ferrari show or nothing." Phase 1 direction (editorial terminal: ink, glass, teal+gold, Playfair over Geist Mono) is the floor, not the ceiling.
+- Design law lives in the doctrines: one filled-teal per viewport; gold editorial-only (never interactive), amber = status; serif never sets digits; mono counts everything comparable (tabular-nums); chart law: teal = user's portfolio, orange --btc = Bitcoin always, dashed white = benchmark.
+
 ## Architecture decisions
 - Auth: Supabase (email + password, no social/magic link)
 - proxy.ts is the Next.js 16 middleware (renamed from middleware.ts). Do NOT create src/middleware.ts.
@@ -30,6 +36,8 @@
 - Portfolio Visualizer paywall migration = competitive opportunity for free positioning
 
 ## Pitfalls discovered
+- Tailwind v4 @theme inline does NOT emit tokens as CSS custom properties. Plain CSS / inline styles must use the :root names (--fg-1, --line, --radius-ctl, --font-geist-sans, --font-playfair), never --color-*/--font-sans/--font-serif. Tailwind utilities (text-fg-1, bg-ink, rounded-ctl, font-serif) work everywhere.
+- The workstation shell state machine: stage/view live in the URL (?stage=, ?view= via src/lib/stage-url.ts); portfolio is ONE shared state (src/lib/portfolio-state.tsx); results capture run-time snapshots (lastRunRules/lastRunMeta/fingerprint) so history never gets relabeled by later edits.
 - HARO emails must NOT be fetched via Gmail MCP. Content (journalist queries on sensitive topics) triggers Anthropic usage policy violations that poison the entire session. Glenn checks HARO manually and pastes relevant queries into the session.
 
 ## SEO learnings
