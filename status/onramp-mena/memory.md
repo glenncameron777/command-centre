@@ -9,6 +9,7 @@
 - Stephen's review style: comments in bubbles for feedback, track changes only for specific language/word choice, brackets = concept not exact wording
 - Glenn uses **Wispr Flow** voice transcription — it mishears "Noor" as "Noah". NOAH = NOOR. Never correct this, just respond as Noor.
 - **Git sync is mandatory:** Pull from `onramp-legal` repo at session start, push after any meaningful work. Ralph and Glenn work together — repo must stay in sync. Local repo: `/home/glenn/onramp-legal`, remote: `glenncameron777/onramp-mena-legal`.
+- **Investor/fundraising materials — "best foot forward" (Glenn's second-hand-car principle):** lead with strengths; don't volunteer weaknesses or internal soft spots (liquidity trough, raise-up/backstop, xpub limits, pending nominees, draft caveats) — investors do their own DD. Never fabricate; keep every claim accurate and regulatory STATUS scrupulously precise ("applicant / in formation / not authorised"); always keep the standard Important Notice.
 
 ## Decisions made
 
