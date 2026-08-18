@@ -68,7 +68,7 @@ All version-controlled on GitHub. Cross-document consistency check found 5 issue
 **Awaiting from Michael:** Entity type, registered address, signatory details, fee figures.
 
 ## Decisions made (decision log)
-- Fee structure: flat fee (not basis points) — rationale: simplicity for initial clients
+- Fee structure: ad valorem, 45–85 bps on AUC (SUPERSEDES the early flat-fee decision — retired 18 Aug 2026 with RG sign-off; conflicts position now in POL-CUST-001 §13.2: the fee interest has no mechanism to reach client assets)
 - Anchorage: rejected as Key Holder 2 — their model requires holding all keys, incompatible with CBB requirement that Onramp MENA be primary custodian
 - Key distribution: CBB exception approved for cross-jurisdiction key storage
 - Config default: public_ssl (not Tor)
