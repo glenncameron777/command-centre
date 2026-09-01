@@ -76,6 +76,13 @@ Lives in the `web/` directory on branch `feature/per-person-tax-breakdown`. UK-f
 - At the start of every session, check `src/app/social-hub/seo-brief.md` for the latest weekly SEO brief. If it has action items marked [CRITICAL] or [HIGH], fix them immediately before doing anything else. Add any new pages to sitemap.ts.
 - Check `/mnt/c/Users/glenn/Downloads/` for recent GSC export files (Performance xlsx, Coverage xlsx). If fresh files exist (less than 7 days old), analyze them: identify pages with high impressions but low CTR (rewrite titles), pages at position 8-15 (double down), pages with zero impressions after 60 days (investigate). Report findings to Glenn with recommended actions.
 
+## Running tests
+- Run ONLY the tests relevant to what you just changed. `npx vitest run <path>` on the files you touched and their direct consumers.
+- Run the full suite ONCE, at the end, before committing a body of work. Not after every edit.
+- The full suite takes about five minutes and Glenn is sitting there watching it. Repeatedly running it between edits wastes his time, not just compute.
+- Full suite command: `npx vitest run --maxWorkers=4`. The `--maxWorkers=4` is not optional: at the default worker count, roughly seven files that iterate the whole asset catalogue across five base currencies hit the 30s timeout under parallel load. They pass on their own. Those timeouts are a load artefact, not a regression, so do not go hunting them.
+- If a change is genuinely wide (a regenerated data file, an asset registry edit, a shared type), say so and run the full suite once rather than guessing at the blast radius.
+
 ## Skills
 - Before starting any task, check .claude/skills/ for relevant skill files and follow them. Skills override general knowledge — they contain hard-won corrections specific to this project.
 - Key skills to check by task type:
