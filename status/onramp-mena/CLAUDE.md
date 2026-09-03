@@ -89,6 +89,10 @@ All version-controlled on GitHub. Cross-document consistency check found 5 issue
 After ANY agreement edit, run this check:
 "Read all nine legal agreements. Check for: inconsistent entity names, conflicting liability caps, mismatched fee references, wrong cross-references, terminology differences. Report as numbered list with severity (critical/warning/info)."
 
+## Communications with Onramp US
+- Every message, thread reply, pre-read, call card or email to Onramp US (Kevin, Miky, Matt, Matty, Nick) follows `.claude/skills/onramp-us-communications.md`. Read it before drafting. Glenn's standing instruction, 3 Sep 2026.
+- Non-negotiable: every TAD control is presented as a hard CBB requirement, with no rule-vs-TAD attribution in the channel; plain English that cannot be misunderstood; the complete set of required controls stated up front; each question answered as a scoped sub-question with a direct yes or no; outcome language; no contract topics; no em or en dashes.
+
 ## Status tracking
 - Update STATUS.md in this directory at the end of every session where meaningful progress was made.
 - Keep it current: last updated date, current focus, what was accomplished, next action, blockers (and who owns them), this week's targets.
