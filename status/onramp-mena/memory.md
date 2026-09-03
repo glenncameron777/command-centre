@@ -10,6 +10,7 @@
 - Glenn uses **Wispr Flow** voice transcription — it mishears "Noor" as "Noah". NOAH = NOOR. Never correct this, just respond as Noor.
 - **Git sync is mandatory:** Pull from `onramp-legal` repo at session start, push after any meaningful work. Ralph and Glenn work together — repo must stay in sync. Local repo: `/home/glenn/onramp-legal`, remote: `glenncameron777/onramp-mena-legal`.
 - **Investor/fundraising materials — "best foot forward" (Glenn's second-hand-car principle):** lead with strengths; don't volunteer weaknesses or internal soft spots (liquidity trough, raise-up/backstop, xpub limits, pending nominees, draft caveats) — investors do their own DD. Never fabricate; keep every claim accurate and regulatory STATUS scrupulously precise ("applicant / in formation / not authorised"); always keep the standard Important Notice.
+- **Rule vs our own commitment (3 Sep 2026):** in any message that mixes a CBB rule with a TAD/policy commitment, state the full set of required controls up front and tag each with its source. Glenn read the plain-English halt reply as "per-vault transaction stop = the whole job" because the system-wide halt and the TAD-vs-rulebook split were never stated. Lesson recorded in `.claude/skills/cbb-regulatory-framework.md`.
 
 ## Decisions made
 
