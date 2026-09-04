@@ -93,6 +93,14 @@ After ANY agreement edit, run this check:
 - Every message, thread reply, pre-read, call card or email to Onramp US (Kevin, Miky, Matt, Matty, Nick) follows `.claude/skills/onramp-us-communications.md`. Read it before drafting. Glenn's standing instruction, 3 Sep 2026.
 - Non-negotiable: every TAD control is presented as a hard CBB requirement, with no rule-vs-TAD attribution in the channel; plain English that cannot be misunderstood; the complete set of required controls stated up front; each question answered as a scoped sub-question with a direct yes or no; outcome language; no contract topics; no em or en dashes.
 
+## Sharing the valuation model (non-negotiable)
+The CBB-20 valuation model carries the **CEO and CFO salaries at $210,000 each for Ralph and Glenn** (`Business Assumptions!G33` and `G38`), in every version including the current V35.1. Internal only.
+
+Whenever anyone asks for the model, a tab, a screenshot, an extract, or a number drawn from it, ask before sending:
+> Is this going outside Onramp MENA? The model carries the CEO and CFO salaries at $210,000 each for Ralph and Glenn (`Business Assumptions!G33` and `G38`). Do you want those figures to go with it?
+
+Wait for the answer. Everyone outside Glenn and Ralph is external for this purpose, including Michael, Early Riders, Onramp US, counsel and counterparties. Do not quietly redact instead of asking. Detail in `onramp-legal/.claude/skills/valuation-model-sharing/SKILL.md`. Glenn's standing instruction, 4 Sep 2026.
+
 ## Status tracking
 - Update STATUS.md in this directory at the end of every session where meaningful progress was made.
 - Keep it current: last updated date, current focus, what was accomplished, next action, blockers (and who owns them), this week's targets.
