@@ -34,9 +34,11 @@ Onramp MENA is applying for a Category 2 Crypto-Asset Service Provider licence f
 Multi-Institution Custody: 2-of-3 native Bitcoin multisig across independent institutions.
 - **Key 1 (Onramp MENA):** Primary custodian. Signs first. Must hold at least one active signing key per CBB requirement.
 - **Key 2 (Tetra Trust, Canada):** Active co-signing key partner. Signs second, verifies user via video, broadcasts transaction. Service agreement drafted.
-- **Key 3 (CoinCover, UK):** Passive/recovery-only key holder. Contractually restricted — cannot exercise key while Onramp MENA is operational. Dual 72-hour gating mechanism before any recovery signing. Functions as embedded business continuity plan (aligned with CRA BCP requirements). £50B+ AUM business. LOI drafted.
+- **Key 3 (CoinCover, UK):** Passive/recovery-only key holder. Contractually restricted — cannot exercise key while Onramp MENA is operational. A single mandatory **3 Business Day** waiting period, with documented contact attempts, gates any recovery signing. Functions as embedded business continuity plan (aligned with CRA BCP requirements). £50B+ AUM business. LOI drafted.
 
-**Signing flow:** Onramp MENA signs → Tetra co-signs and broadcasts. CoinCover only activates if Onramp MENA becomes unreachable (after dual 72-hour waiting periods + independent client KYC/KYB/AML with CoinCover).
+**Signing flow:** Onramp MENA signs → Tetra co-signs and broadcasts. CoinCover only activates if Onramp MENA becomes unreachable: one mandatory **3 Business Day** waiting period during which **both** Key Agents make documented attempts to re-establish contact, then independent client KYC/KYB/AML directly with CoinCover, then Keys 2 and 3 co-sign.
+
+> **The recovery gate is 3 Business Days, not 72 hours.** The TAD (v5.6.1, and since the 18 May 2026 accuracy pass) says 3 Business Days in 7 places; 72 calendar hours can lapse over a weekend, which is why it was changed. It is a **single shared** period, not two per-agent clocks. As at 8 Sep 2026 the change was never propagated: six of the nine legal agreements and `application/governance/cbb-tech-alignment-cra-crossref.md` still say 72 hours. Never quote 72 hours for the recovery gate, and flag it if you see it. (Unrelated 72-hour windows do exist and are correct: PDPL breach notification, incident-response RCA deadlines, and the cap on Onramp US access windows.)
 
 **Critical constraint:** xpub-based algorithmic key generation is required. This eliminates most MPC-based custodians.
 
