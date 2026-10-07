@@ -96,7 +96,7 @@ After ANY agreement edit, run this check:
 - Non-negotiable: every TAD control is presented as a hard CBB requirement, with no rule-vs-TAD attribution in the channel; plain English that cannot be misunderstood; the complete set of required controls stated up front; each question answered as a scoped sub-question with a direct yes or no; outcome language; no contract topics; no em or en dashes.
 
 ## Sharing the valuation model (non-negotiable)
-The CBB-20 valuation model carries the **CEO and CFO salaries at $210,000 each for Ralph and Glenn** (`Business Assumptions!G33` and `G38`), in every version including the current V35.1. Internal only.
+The CBB-20 valuation model carries the **CEO and CFO salaries at $210,000 each for Ralph and Glenn** (`Business Assumptions!G33` and `G38`), in every version including the current V38.7. Internal only.
 
 Whenever anyone asks for the model, a tab, a screenshot, an extract, or a number drawn from it, ask before sending:
 > Is this going outside Onramp MENA? The model carries the CEO and CFO salaries at $210,000 each for Ralph and Glenn (`Business Assumptions!G33` and `G38`). Do you want those figures to go with it?
