@@ -60,6 +60,8 @@
 
 ## Pitfalls discovered
 
+- **(7 Oct 2026) A change summary must quote what the document now says.** Noor's line on the FAQ's item 9 ('There is no signed letter, only a written question to Michael') was read by Glenn as the FAQ claiming a signed letter, and he accused Ralph on Signal before Ralph showed the text. Say 'Item 9 now says X; it replaced your idea of Y.'
+
 - **(6 Oct 2026) A rebase conflict is resolved inside the rebase, never with `reset --soft` and `add -A`.** That recovery committed the deletion of four of Ralph's new FAQ files and reverted his tracker (`4a1fa008`); Ralph's session restored them (`d9296b4f`). After every push, `git show --stat HEAD` must list only my own paths.
 
 - **(6 Oct 2026) Pull and look in `context/meeting-notes/` before transcribing a call.** Ralph records from his side and his session files the transcript and a distilled note the same morning; the 5 Oct Tetra call was transcribed twice. Also: faster-whisper 1.2.1 breaks with PyAV 19 (`metadata_errors`); feed the wav as a numpy array (skill updated).
