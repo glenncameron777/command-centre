@@ -62,6 +62,7 @@
 
 ## Pitfalls discovered
 
+- **(9 Oct 2026) Read the Coincover agreement against its own ASOP.** Our draft's passive-role clause 4.3(a) ('while Onramp MENA remains operational') blocks the ASOP's 4.3 (Tetra unable to sign), because we are still running when Tetra fails. One exception goes into our markup of Coincover's draft, worded as Coincover's legal team accepted on 19 May (a client-initiated recovery when the Signing Key Agent is permanently impaired, not ongoing co-signing). Noor first told Glenn the Coincover steps covered only our absence; ASOP 4.3 showed otherwise.
 - **(7 Oct 2026) A change summary must quote what the document now says.** Noor's line on the FAQ's item 9 ('There is no signed letter, only a written question to Michael') was read by Glenn as the FAQ claiming a signed letter, and he accused Ralph on Signal before Ralph showed the text. Say 'Item 9 now says X; it replaced your idea of Y.'
 
 - **(6 Oct 2026) A rebase conflict is resolved inside the rebase, never with `reset --soft` and `add -A`.** That recovery committed the deletion of four of Ralph's new FAQ files and reverted his tracker (`4a1fa008`); Ralph's session restored them (`d9296b4f`). After every push, `git show --stat HEAD` must list only my own paths.
