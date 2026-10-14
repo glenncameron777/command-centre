@@ -62,6 +62,8 @@
 
 ## Pitfalls discovered
 
+- **(14 Oct 2026) Never leave same-named older files beside a final package.** On 13 Oct the final outreach package went into its own Desktop folder. I refreshed the three sequences in place at the Desktop root, but left Ralph's older workbook and CSVs beside them under the final names. Glenn sent the root set, and Early Riders got the pre-final workbook (Partner column with Coincover and Tetra, network columns, 13 bad links). Refresh every root copy or none. Move the superseded files into a "do not send" folder with Glenn's OK. Name the exact folder to send from.
+
 - **(9 Oct 2026) Read the Coincover agreement against its own ASOP.** Our draft's passive-role clause 4.3(a) ('while Onramp MENA remains operational') blocks the ASOP's 4.3 (Tetra unable to sign), because we are still running when Tetra fails. One exception goes into our markup of Coincover's draft, worded as Coincover's legal team accepted on 19 May (a client-initiated recovery when the Signing Key Agent is permanently impaired, not ongoing co-signing). Noor first told Glenn the Coincover steps covered only our absence; ASOP 4.3 showed otherwise.
 - **(7 Oct 2026) A change summary must quote what the document now says.** Noor's line on the FAQ's item 9 ('There is no signed letter, only a written question to Michael') was read by Glenn as the FAQ claiming a signed letter, and he accused Ralph on Signal before Ralph showed the text. Say 'Item 9 now says X; it replaced your idea of Y.'
 
